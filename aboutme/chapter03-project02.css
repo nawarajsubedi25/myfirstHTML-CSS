@@ -1,0 +1,112 @@
+/* Name : Nawaraj Subedi
+ * Date : 9/27/2015
+ * Professor : Dr Lon Smith
+ */
+
+body {
+font-family: Georgia;
+font-size: 100%;
+background-image:url(images/background-pattern.png);
+border:solid 1px; 
+margin: 2em;
+padding:2em 2em 0em 2em;
+border-color: #5E9188;
+
+}
+
+header{
+	background-image:url(images/header-background.jpg);
+	background-repeat: repeat;
+}
+h1{
+	padding-left: 2.5em;
+}
+h2{
+	font-size: 18px;
+}
+#mainMenu{
+	background-color: #283649;
+	font-size: 14px;
+	font-size: 0.856em;
+	text-align: right;
+	padding-right: 6em;
+	
+}
+#secondaryMenu{
+	background-color: #DAE1E8;
+	font-size: 16px;
+	font-size: 1em;
+	padding-left: 6em;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 7px;
+	font-size: 2em;
+	
+}
+a:visited {
+	color: gray;
+}
+a:hover{
+	background-color:red;
+}
+
+p{
+	font-size: 16px;
+	font-size: 1em;
+}
+a:link{
+	color: blue;
+}
+nav {
+	padding: 0.25em;
+}
+nav a {
+	padding: 0.2em;
+}
+
+
+#mainMenu{
+	text-align: right;
+	padding-right: 5em;
+	
+}
+#secondaryMenu{
+	background-color: #DAE1E8;
+	font-size: 16px;
+	font-size: 1em;
+	padding-left: 6em;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 7px;
+	
+}
+
+article>div {
+	background-color: white;
+	text-align: center;
+	padding-left:6em;
+}
+article>div img{
+	border: solid 1px #999999;
+	padding: 0.5em;
+	margin-top:1em;
+}
+
+#mainContact {
+	padding: 2em;
+	
+	
+}
+ 
+
+footer {
+	border:solid;
+	margin:4em 0em 0em -1em;
+	color:white;
+	padding:0.25em;
+background-color: #383649;
+}

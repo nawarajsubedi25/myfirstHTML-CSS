@@ -1,0 +1,120 @@
+<!DOCTYPE html>.
+
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Raj Profile</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="chapter03-project02.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<style>
+			.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+				width: 40%;
+				margin: auto;
+				size: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav id="mainMenu">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/rajsubedi07"><img src="images/facebook-logo-square.png" height="42" width="45"/></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/nhome"><img src="images/linkedln.png" height="42" width="45"</li>
+						<li><a href="https://mail.google.com/mail/u/0/#inbox"><img src="images/gmail.png" height="42" width="45"</li>
+						</ul>
+						</nav>
+						<h1> <font size ="9" color="white">Raj Subedi</font></h1>
+
+						<nav id="secondaryMenu">
+						<ul>
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="About Me.html">About</a></li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						</ul>
+						<script type="text/javascript">
+							function highlightCurrentLink() {
+								var arr = document.getElementsByTagName("a");
+								for (var i = 0,
+								    len = arr.length; i < len; ++i) {
+									if (arr[i].href == window.location.href) {
+										arr[i].style.color = "yellow";
+										break;
+									}
+								}
+							}
+
+							highlightCurrentLink();
+							
+						</script>
+			</nav>
+		</header>
+
+		<article id="mainContact">
+		<div class="container">
+		<br>
+		<div id="myCarousel"class="carousel slide"data-ride="carousel">
+		<ol class="carousel-indicators">
+		<li data-target="#myCarousel"data-slide-to="0"class="active"></li>
+		<li data-target="#myCarousel"data-slide-to="1"></li>
+		<li data-target="#myCarousel"data-slide-to="2"></li>
+		<li data-target="#myCarousel"data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+		<div class="item active">
+		<img src="images/raj.jpg" alt="Raj Subedi" width="40" height="30">
+		<div class="carousel-caption">
+		<p>Nepal Visit 2016</p>
+		<h2>At Maula kali, Nepal visit 2016</h2>
+		</div>
+		</div>
+		<div class="item">
+		<img src="images/pensoncolabeach.jpg" alt="Pensoncola Beach" width="20" height="50" />
+				<div class="carousel-caption">
+		<p>Florida Summer 2015</p>
+		<h2>Pensoncola Beach Summer Fun</h2>
+		</div>
+		</div>
+		<div class="item">
+		<img src="images/manakamana.jpg" alt="Raj Subedi" width="20" height="30">
+		<div class="carousel-caption">
+			<p>
+				Nepal Visit 2015
+			</p>
+			<h2>Nepal Manakamana Fun</h2>
+		</div>
+		</div>
+		<script>
+          function showImage(imgName) {
+								var curImage = document.getElementById('currentImg');
+								var thePath = 'images/';
+								var theSource = thePath + imgName;
+								curImage.src = theSource;
+								curImage.alt = imgName;
+								curImage.title = imgName;
+							}
+							</script>
+		<a class ="left carousel-control" href="#myCarousel" role="button" data-slide ="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span></a>
+		<a class ="right carousel-control"href="#myCarousel" role="button" data-slide ="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+		</div>
+		</div>
+		</article>
+		<footer>
+			<p>
+				<a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a>
+			</p>
+			<p id="copyright">
+				Copyright &copy; myRajSubedi
+			</p>
+		</footer>
+
+	</body>
+</html>
